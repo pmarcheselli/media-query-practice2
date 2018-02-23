@@ -103,3 +103,29 @@ footer form {
   margin-left: 2rem;
   display: inline;
 }
+
+.print-only {
+  display: none;
+}
+
+@media (min-width: 351px) and (max-width: 600px) {
+  h1 { color: pink; }
+}
+
+@media (max-width: 450px) {
+  h1 { color: red; }   
+}
+
+h1 {
+  margin: .5rem;
+}
+
+@media (min-width: 500px) {
+  margin: 2rem;
+}
+
+
+
+
+
+

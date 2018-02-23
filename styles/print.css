@@ -1,0 +1,18 @@
+.print-only {
+  display: initial;
+}
+
+nav, footer, video {
+  display: none;
+}
+
+a:after {
+/*  content: " (" attr(href) ") ";*/ /* items within parentheses will show */ 
+  content: "-" attr(href) "-";
+  font-size: 80%;
+}
+
+.container, article {
+  width: 100%;
+}
+
